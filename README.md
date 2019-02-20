@@ -1,15 +1,13 @@
 # Zero-to-Monero
 
-This is a comprehensive conceptual (and technical) explanation of Monero. I will be updating periodically, and publishing full editions when they are complete.
+Este documento es una guía conceptual y técnica sobre Monero. Este repositorio recoge una traducción al español del trabajo original de Kurt M. Alonso y Koe en la versión 1.0.0 publicada en inglés junio de 2018 y que está disponible _online_ en la Biblioteca de getmonero.org: https://getmonero.org/library/
 
-The first edition was published on getmonero.org in the Library section: https://getmonero.org/library/
+Contenido completo:  
+-Las transacciones de monero (priemra edición)  
+-La cadena de bloques de Monero (primera edición)
 
-Complete content:  
--Monero transactions (first edition)  
--Monero blockchain (first edition)
+-Multifirmas (segunda edición)
 
--multisignatures (second edition)
-
-Future content:  
--bulletproofs (second edition)
--security proof appendix (second edition)
+Contenido futuro:  
+-_bulletproofs_ (segunda edición)
+-apéndice de pruebas de seguridad (segunda edición)
