@@ -1,0 +1,398 @@
+\begin{thebibliography}{10}
+
+\bibitem{monero-v5}
+Add intervening v5 fork for increased min block size.
+\newblock \url{https://github.com/monero-project/monero/pull/1869} [Online;
+  accessed 05/24/2018].
+
+\bibitem{cryptographic-oracle}
+cryptography - what is a cryptographic oracle?
+\newblock
+  \url{https://security.stackexchange.com/questions/10617/what-is-a-cryptographic-oracle}
+  [Online; accessed 04/22/2018].
+
+\bibitem{tutorialspoint-cryptography}
+Cryptography tutorial.
+\newblock \url{https://www.tutorialspoint.com/cryptography/index.htm} [Online;
+  accessed 05/19/2018].
+
+\bibitem{luigi-address}
+Cryptonote address tests.
+\newblock \url{https://xmr.llcoins.net/addresstests.html} [Online; accessed
+  04/19/2018].
+
+\bibitem{deprecating-payment-ids}
+Devmeeting 2018-05-06.
+\newblock \url{https://monerobase.com/wiki/DevMeeting_2018-05-06} [Online;
+  accessed 05/06/2018].
+
+\bibitem{DAG-wikipedia}
+Directed acyclic graph.
+\newblock \url{https://en.wikipedia.org/wiki/Directed_acyclic_graph} [Online;
+  accessed 05/27/2018].
+
+\bibitem{integrated-addresses}
+How do payment ids work?
+\newblock
+  \url{https://monero.stackexchange.com/questions/1910/how-do-payment-ids-work}
+  [Online; accessed 04/21/2018].
+
+\bibitem{Monero-intro}
+How does monero's privacy work?
+\newblock \url{https://www.monero.how/how-does-monero-privacy-work} [Online;
+  accessed 04/04/2018].
+
+\bibitem{dynamic-per-kb-fee}
+How does the dynamic fee calculation work?
+\newblock
+  \url{https://monero.stackexchange.com/questions/2531/how-does-the-dynamic-fee-calculation-work}
+  [Online; accessed 05/25/2018].
+
+\bibitem{wiki-modular-arithmetic}
+Modular arithmetic.
+\newblock \url{https://en.wikipedia.org/wiki/Modular_arithmetic} [Online;
+  accessed 04/16/2018].
+
+\bibitem{monero-history}
+Monero inception and history.
+\newblock
+  \url{https://monero.stackexchange.com/questions/475/monero-inception-and-history-how-did-monero-get-started-what-are-its-origins-a/476#476}
+  [Online; accessed 05/23/2018].
+
+\bibitem{monero-0.9.3}
+Monero v0.9.3 - hydrogen helix - released!
+\newblock
+  \url{https://www.reddit.com/r/Monero/comments/4bgw4z/monero_v093_hydrogen_helix_released_urgent_and/}
+  [Online; accessed 05/24/2018].
+
+\bibitem{ringct-dates}
+Ring ct; moneropedia.
+\newblock \url{https://getmonero.org/resources/moneropedia/ringCT.html}
+  [Online; accessed 06/05/2018].
+
+\bibitem{monero-tail-emission}
+Tail emission.
+\newblock \url{https://getmonero.org/resources/moneropedia/tail-emission.html}
+  [Online; accessed 05/24/2018].
+
+\bibitem{NSA-NIST}
+Trust the math? an update.
+\newblock \url{http://www.math.columbia.edu/~woit/wordpress/?p=6522} [Online;
+  accessed 04/04/2018].
+
+\bibitem{monero-coin-emission}
+Useful for learning about monero coin emission.
+\newblock
+  \url{https://www.reddit.com/r/Monero/comments/512kwh/useful_for_learning_about_monero_coin_emission/d78tpgi/}
+  [Online; accessed 05/25/2018].
+
+\bibitem{varint-description}
+Varint description; issue \#2340.
+\newblock
+  \url{https://github.com/monero-project/monero/issues/2340#issuecomment-324692291}
+  [Online; accessed 06/14/2018].
+
+\bibitem{premine-description}
+What is a premine?
+\newblock \url{https://www.cryptocompare.com/coins/guides/what-is-a-premine/}
+  [Online; accessed 06/11/2018].
+
+\bibitem{transaction-lock}
+What is the block maturity value seen in many pool interfaces?
+\newblock
+  \url{https://monero.stackexchange.com/questions/2251/what-is-the-block-maturity-value-seen-in-many-pool-interfaces}
+  [Online; accessed 05/26/2018].
+
+\bibitem{wolfram-xor}
+Xor -- from wolfram mathworld.
+\newblock \url{http://mathworld.wolfram.com/XOR.html} [Online; accessed
+  04/21/2018].
+
+\bibitem{AES-encryption}
+Federal information processing standards publication ({FIPS} 197). {Advanced
+  Encryption Standard (AES)}, 2001.
+
+\bibitem{nist-sha3}
+Nist releases sha-3 cryptographic hash standard, August 2015.
+\newblock
+  \url{https://www.nist.gov/news-events/news/2015/08/nist-releases-sha-3-cryptographic-hash-standard}
+  [Online; accessed 06/02/2018].
+
+\bibitem{ASNL-issue}
+Issue with proof of unforgeability of asnl, 2016.
+\newblock \url{https://github.com/monero-project/research-lab/issues/4}
+  [Online; accessed 04/04/2018].
+
+\bibitem{cryptonight7}
+Monero cryptonight variants, and add one for v7, April 2018.
+\newblock \url{https://github.com/monero-project/monero/pull/3253} [Online;
+  accessed 05/23/2018].
+
+\bibitem{tx-extra-field}
+Prometheus~Tereno Albert~Werner, Montag.
+\newblock Cryptonote transaction extra field.
+\newblock CryptoNote, October 2012.
+\newblock \url{https://cryptonote.org/cns/cns005.txt} [Online; accessed
+  04/04/2018].
+
+\bibitem{kurt-original}
+Kurt~M. Alonso and Jordi~Herrera Joancomartí.
+\newblock Monero - privacy in the blockchain.
+\newblock Cryptology ePrint Archive, Report 2018/535, 2018.
+\newblock \url{https://eprint.iacr.org/2018/535}.
+
+\bibitem{AdamBack-ring-efficiency}
+Adam Back.
+\newblock Ring signature efficiency.
+\newblock BitcoinTalk, 2015.
+\newblock
+  \url{https://bitcointalk.org/index.php?topic=972541.msg10619684#msg10619684}
+  [Online; accessed 04/04/2018].
+
+\bibitem{curve25519}
+Daniel~J. Bernstein.
+\newblock Curve25519: New diffie-hellman speed records.
+\newblock In Moti Yung, Yevgeniy Dodis, Aggelos Kiayias, and Tal Malkin,
+  editors, {\em Public Key Cryptography - PKC 2006}, pages 207--228, Berlin,
+  Heidelberg, 2006. Springer Berlin Heidelberg.
+
+\bibitem{Bernstein_chacha}
+Daniel~J. Bernstein.
+\newblock Chacha, a variant of salsa20, 2008.
+
+\bibitem{Bernstein2008}
+Daniel~J. Bernstein, Peter Birkner, Marc Joye, Tanja Lange, and Christiane
+  Peters.
+\newblock {\em Twisted Edwards Curves}, pages 389--405.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2008.
+
+\bibitem{Bernstein2012}
+Daniel~J. Bernstein, Niels Duif, Tanja Lange, Peter Schwabe, and Bo-Yin Yang.
+\newblock High-speed high-security signatures.
+\newblock {\em Journal of Cryptographic Engineering}, 2(2):77--89, Sep 2012.
+
+\bibitem{Bernstein2007}
+Daniel~J. Bernstein and Tanja Lange.
+\newblock {\em Faster Addition and Doubling on Elliptic Curves}, pages 29--50.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
+
+\bibitem{DK-police-tracing-btc}
+Karina Bjørnholdt.
+\newblock Dansk politi har knækket bitcoin-koden, May 2017.
+\newblock
+  \url{http://www.dansk-politi.dk/artikler/2017/maj/dansk-politi-har-knaekket-bitcoin-koden}
+  [Online; accessed 04/04/2018].
+
+\bibitem{Chaum:1991:GS:1754868.1754897}
+David Chaum and Eug\`{e}ne Van~Heyst.
+\newblock Group signatures.
+\newblock In {\em Proceedings of the 10th Annual International Conference on
+  Theory and Application of Cryptographic Techniques}, EUROCRYPT'91, pages
+  257--265, Berlin, Heidelberg, 1991. Springer-Verlag.
+
+\bibitem{Diffie-Hellman}
+W.~Diffie and M.~Hellman.
+\newblock New directions in cryptography.
+\newblock {\em IEEE Trans. Inf. Theor.}, 22(6):644--654, September 2006.
+
+\bibitem{fiat-shamir-transform}
+Amos Fiat and Adi Shamir.
+\newblock How to prove yourself: Practical solutions to identification and
+  signature problems.
+\newblock In Andrew~M. Odlyzko, editor, {\em Advances in Cryptology --- CRYPTO'
+  86}, pages 186--194, Berlin, Heidelberg, 1987. Springer Berlin Heidelberg.
+
+\bibitem{Fujisaki2007}
+Eiichiro Fujisaki and Koutarou Suzuki.
+\newblock {\em Traceable Ring Signature}, pages 181--200.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
+
+\bibitem{hales2014nsa}
+Thomas~C Hales.
+\newblock The {NSA} back door to {NIST}.
+\newblock {\em Notices of the AMS}, 61(2):190--192.
+
+\bibitem{Hankerson:2003:GEC:940321}
+Darrel Hankerson, Alfred~J. Menezes, and Scott Vanstone.
+\newblock {\em Guide to Elliptic Curve Cryptography}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2003.
+
+\bibitem{MRL-0002}
+Surae~Noether Jan~Macheta, Sarang~Noether and Javier Smooth.
+\newblock Counterfeiting via merkle tree exploits within virtual currencies
+  employing the cryptonote protocol, mrl-0002, September 2014.
+\newblock \url{https://lab.getmonero.org/pubs/MRL-0002.pdf} [Online; accessed
+  05/27/2018].
+
+\bibitem{ecdsa}
+Don Johnson and Alfred Menezes.
+\newblock The elliptic curve digital signature algorithm (ecdsa).
+\newblock Technical Report CORR 99-34, Dept. of C\&O, University of Waterloo,
+  Canada, 1999.
+\newblock
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.472.9475&rep=rep1&type=pdf}
+  [Online; accessed 04/04/2018].
+
+\bibitem{rfc8032}
+Simon Josefsson and Ilari Liusvaara.
+\newblock {Edwards-Curve Digital Signature Algorithm (EdDSA)}.
+\newblock RFC 8032, January 2017.
+
+\bibitem{ECC-patents}
+Alexander Klimov.
+\newblock {ECC} patents?, October 2005.
+\newblock \url{http://article.gmane.org/gmane.comp.encryption.general/7522}
+  [Online; accessed 04/04/2018].
+
+\bibitem{Liu2004}
+Joseph~K. Liu, Victor~K. Wei, and Duncan~S. Wong.
+\newblock {\em Linkable Spontaneous Anonymous Group Signature for Ad Hoc
+  Groups}, pages 325--335.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2004.
+
+\bibitem{simple-zk-proof-maurer}
+Ueli Maurer.
+\newblock Unifying zero-knowledge proofs of knowledge.
+\newblock In Bart Preneel, editor, {\em Progress in Cryptology -- AFRICACRYPT
+  2009}, pages 272--286, Berlin, Heidelberg, 2009. Springer Berlin Heidelberg.
+
+\bibitem{maxwell-ct}
+Greg Maxwell.
+\newblock Confidential transactions.
+\newblock \url{https://people.xiph.org/~greg/confidential_values.txt} [Online;
+  accessed 04/04/2018].
+
+\bibitem{Signatures2015BorromeanRS}
+Gregory Maxwell and Andrew Poelstra.
+\newblock Borromean ring signatures.
+\newblock 2015.
+\newblock
+  https://pdfs.semanticscholar.org/4160/470c7f6cf05ffc81a98e8fd67fb0c84836ea.pdf
+  [Online; accessed 04/04/2018].
+
+\bibitem{maxwell2018simple}
+Gregory Maxwell, Andrew Poelstra, Yannick Seurin, and Pieter Wuille.
+\newblock Simple schnorr multi-signatures with applications to bitcoin.
+\newblock 2018.
+
+\bibitem{merkle-tree}
+R.~C. Merkle.
+\newblock Protocols for public key cryptosystems.
+\newblock In {\em 1980 IEEE Symposium on Security and Privacy}, pages 122--122,
+  April 1980.
+
+\bibitem{Miller:point-compression-origin}
+Victor~S Miller.
+\newblock Use of elliptic curves in cryptography.
+\newblock In {\em Lecture Notes in Computer Sciences; 218 on Advances in
+  cryptology---CRYPTO 85}, pages 417--426, Berlin, Heidelberg, 1986.
+  Springer-Verlag.
+
+\bibitem{Nakamoto_bitcoin}
+Satoshi Nakamoto.
+\newblock Bitcoin: A peer-to-peer electronic cash system,”
+  http://bitcoin.org/bitcoin.pdf, 2008.
+
+\bibitem{DBLP:journals/corr/NarayananM17}
+Arvind Narayanan and Malte M{\"{o}}ser.
+\newblock Obfuscation in bitcoin: Techniques and politics.
+\newblock {\em CoRR}, abs/1706.05432, 2017.
+
+\bibitem{MRL-0006}
+Sarang Noether and Brandon Goodell.
+\newblock An efficient implementation of monero subaddresses, mrl-0006, October
+  2017.
+\newblock \url{https://lab.getmonero.org/pubs/MRL-0006.pdf} [Online; accessed
+  04/04/2018].
+
+\bibitem{MRL-0003}
+Shen Noether and Sarang Noether.
+\newblock Monero is not that mysterious, mrl-0003, September 2014.
+\newblock \url{https://lab.getmonero.org/pubs/MRL-0003.pdf} [Online; accessed
+  06/15/2018].
+
+\bibitem{Andrew-Cox-Sandia}
+Michael Padilla.
+\newblock Beating bitcoin bad guys, August 2016.
+\newblock
+  \url{http://www.sandia.gov/news/publications/labnews/articles/2016/19-08/bitcoin.html}
+  [Online; accessed 04/04/2018].
+
+\bibitem{Pedersen1992}
+Torben~Pryds Pedersen.
+\newblock {\em Non-Interactive and Information-Theoretic Secure Verifiable
+  Secret Sharing}, pages 129--140.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1992.
+
+\bibitem{key-image-bug}
+luigi1111 Riccardo~``fluffypony" Spagni.
+\newblock Disclosure of a major bug in cryptonote based currencies, May 2017.
+\newblock
+  \url{https://getmonero.org/2017/05/17/disclosure-of-a-major-bug-in-cryptonote-based-currencies.html}
+  [Online; accessed 04/10/2018].
+
+\bibitem{rivest-leak-secret}
+Adi~Shamir Ronald L.~Rivest and Yael Tauman.
+\newblock How to leak a secret.
+\newblock C. Boyd (Ed.): ASIACRYPT 2001, LNCS 2248, pp. 552-565, 2001.
+\newblock \url{https://people.csail.mit.edu/rivest/pubs/RST01.pdf} [Online;
+  accessed 04/04/2018].
+
+\bibitem{eddsa-ed25519-irtf}
+SJD~AB S.~Josefsson and N.~Moeller.
+\newblock Eddsa and ed25519.
+\newblock Internet Research Task Force (IRTF), 2015.
+\newblock \url{https://tools.ietf.org/html/draft-josefsson-eddsa-ed25519-03}
+  [Online; accessed 05/11/2018].
+
+\bibitem{schnorr-signatures}
+C.~P. Schnorr.
+\newblock Efficient identification and signatures for smart cards.
+\newblock In Gilles Brassard, editor, {\em Advances in Cryptology --- CRYPTO'
+  89 Proceedings}, pages 239--252, New York, NY, 1990. Springer New York.
+
+\bibitem{SCOZZAFAVA1993313}
+Paola Scozzafava.
+\newblock Uniform distribution and sum modulo m of independent random
+  variables.
+\newblock {\em Statistics \& Probability Letters}, 18(4):313 -- 314, 1993.
+
+\bibitem{CryptoNight}
+Seigen, Max Jameson, Tuomo Nieminen, Neocortex, and Antonio~M. Juarez.
+\newblock Cryptonight hash function.
+\newblock CryptoNote, March 2013.
+\newblock \url{https://cryptonote.org/cns/cns008.txt} [Online; accessed
+  04/04/2018].
+
+\bibitem{MRL-0005}
+Adam~Mackenzie Shen~Noether and Monero~Core Team.
+\newblock Ring confidential transactions, mrl-0005, February 2016.
+\newblock \url{https://lab.getmonero.org/pubs/MRL-0005.pdf} [Online; accessed
+  06/15/2018].
+
+\bibitem{DBLP:journals/corr/ShenTuY15b}
+QingChun ShenTu and Jianping Yu.
+\newblock Research on anonymization and de-anonymization in the bitcoin system.
+\newblock {\em CoRR}, abs/1510.07782, 2015.
+
+\bibitem{bitmonero-launched}
+thankful\_for\_today.
+\newblock [ann][bmr] bitmonero - a new coin based on cryptonote technology -
+  launched, April 2014.
+\newblock Monero's actual launch date was April 18\nth, 2014.
+  \url{https://bitcointalk.org/index.php?topic=563821.0} [Online; accessed
+  05/24/2018].
+
+\bibitem{cryptoNoteWhitePaper}
+Nicolas van Saberhagen.
+\newblock Cryptonote v2.0.
+\newblock [Online; accessed 04/04/2018].
+
+\bibitem{chacha-irtf}
+A.~Langley Google~Inc. Y.~Nir, Check~Point.
+\newblock Chacha20 and poly1305 for ietf protocols.
+\newblock Internet Research Task Force (IRTF), May 2015.
+\newblock \url{https://tools.ietf.org/html/rfc7539} [Online; accessed
+  05/11/2018].
+
+\end{thebibliography}

@@ -1,0 +1,123 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: front/abstract.aux
+A level-1 auxiliary file: content/introduction.aux
+A level-1 auxiliary file: content/basicConcepts.aux
+A level-1 auxiliary file: content/ring-signatures.aux
+A level-1 auxiliary file: content/commitments.aux
+A level-1 auxiliary file: content/Transactions.aux
+A level-1 auxiliary file: content/blockchain.aux
+A level-1 auxiliary file: content/multisig.aux
+The style file: plain.bst
+A level-1 auxiliary file: content/appendix.aux
+Database file #1: back/references.bib
+Warning--I didn't find a database entry for "key-prefix-paper"
+Name 1 in "Shen Noether, Adam Mackenzie, and Monero Core Team" has a comma at the end for entry MRL-0005
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in Monero-intro
+Warning--to sort, need author or key in monero-history
+Name 1 in "Shen Noether, and Sarang Noether" has a comma at the end for entry MRL-0003
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in nist-sha3
+Warning--to sort, need author or key in wiki-modular-arithmetic
+Warning--to sort, need author or key in cryptographic-oracle
+Name 1 in "Y. Nir, Check Point, A. Langley, Google Inc.," has a comma at the end for entry chacha-irtf
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Y. Nir, Check Point, A. Langley, Google Inc.," for entry chacha-irtf
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in NSA-NIST
+Name 1 in "S. Josefsson, SJD AB, and N. Moeller" has a comma at the end for entry eddsa-ed25519-irtf
+while executing---line 1049 of file plain.bst
+Name 1 in "Ronald L. Rivest, Adi Shamir, and Yael Tauman" has a comma at the end for entry rivest-leak-secret
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in ASNL-issue
+Warning--to sort, need author or key in luigi-address
+Warning--to sort, need author or key in deprecating-payment-ids
+Warning--to sort, need author or key in integrated-addresses
+Warning--to sort, need author or key in wolfram-xor
+Warning--to sort, need author or key in ringct-dates
+Warning--to sort, need author or key in varint-description
+Warning--to sort, need author or key in DAG-wikipedia
+Warning--to sort, need author or key in monero-0.9.3
+Warning--to sort, need author or key in cryptonight7
+Warning--to sort, need author or key in premine-description
+Warning--to sort, need author or key in monero-coin-emission
+Warning--to sort, need author or key in monero-v5
+Warning--to sort, need author or key in dynamic-per-kb-fee
+Warning--to sort, need author or key in monero-tail-emission
+Warning--to sort, need author or key in transaction-lock
+Name 1 in "Jan Macheta, Sarang Noether, Surae Noether, and Javier Smooth" has a comma at the end for entry MRL-0002
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in tutorialspoint-cryptography
+Warning--to sort, need author or key in AES-encryption
+Too many commas in name 1 of "Albert Werner, Montag, Prometheus, Tereno" for entry tx-extra-field
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Albert Werner, Montag, Prometheus, Tereno" for entry tx-extra-field
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Bernstein2008
+Warning--can't use both author and editor fields in Bernstein2007
+Warning--can't use both author and editor fields in Fujisaki2007
+Warning--empty year in hales2014nsa
+Name 1 in "Jan Macheta, Sarang Noether, Surae Noether, and Javier Smooth" has a comma at the end for entry MRL-0002
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Liu2004
+Warning--empty booktitle in Signatures2015BorromeanRS
+Warning--empty journal in maxwell2018simple
+Name 1 in "Shen Noether, and Sarang Noether" has a comma at the end for entry MRL-0003
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Pedersen1992
+Name 1 in "Ronald L. Rivest, Adi Shamir, and Yael Tauman" has a comma at the end for entry rivest-leak-secret
+while executing---line 1090 of file plain.bst
+Name 1 in "S. Josefsson, SJD AB, and N. Moeller" has a comma at the end for entry eddsa-ed25519-irtf
+while executing---line 1090 of file plain.bst
+Name 1 in "Shen Noether, Adam Mackenzie, and Monero Core Team" has a comma at the end for entry MRL-0005
+while executing---line 1090 of file plain.bst
+Warning--empty journal in cryptoNoteWhitePaper
+Warning--empty year in cryptoNoteWhitePaper
+Name 1 in "Y. Nir, Check Point, A. Langley, Google Inc.," has a comma at the end for entry chacha-irtf
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Y. Nir, Check Point, A. Langley, Google Inc.," for entry chacha-irtf
+while executing---line 1090 of file plain.bst
+You've used 67 entries,
+            2118 wiz_defined-function locations,
+            850 strings with 16288 characters,
+and the built_in function-call counts, 17065 in all, are:
+= -- 1655
+> -- 554
+< -- 12
++ -- 235
+- -- 165
+* -- 864
+:= -- 2499
+add.period$ -- 189
+call.type$ -- 67
+change.case$ -- 274
+chr.to.int$ -- 0
+cite$ -- 101
+duplicate$ -- 693
+empty$ -- 1705
+format.name$ -- 165
+if$ -- 3848
+int.to.chr$ -- 0
+int.to.str$ -- 67
+missing$ -- 28
+newline$ -- 320
+num.names$ -- 94
+pop$ -- 592
+preamble$ -- 1
+purify$ -- 213
+quote$ -- 0
+skip$ -- 590
+stack$ -- 0
+substring$ -- 806
+swap$ -- 177
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 256
+warning$ -- 34
+while$ -- 132
+width$ -- 69
+write$ -- 648
+(There were 16 error messages)

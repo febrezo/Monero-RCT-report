@@ -124,8 +124,8 @@
 
 
 \hypersetup{
-    pdftitle = {Zero to Monero - First Edition},
-    pdfauthor = {Kurt and koe}
+    pdftitle = {Monero desde cero - Primera edición},
+    pdfauthor = {Kurt y koe (traducido por @febrezo e @yrubiosec)}
 }
 
 
@@ -152,33 +152,35 @@
 
 
 \vfill{}
-{\par\centering \textsc{\huge Zero to Monero: First Edition}\par}
+{\par\centering \textsc{\huge Monero desde cero: Primera edición}\par}
 \smallskip
-{\par\centering \textsc{\LARGE a technical guide to a private digital currency; for beginners, amateurs, and experts}\par}
+{\par\centering \textsc{\LARGE Una guía técnica a la divisa digital privada para principiantes, aficionados y expertos}\par}
 \smallskip
-{\par\centering \textsc{\LARGE Published \today{} (v1.0.0)}\par}
+{\par\centering \textsc{\LARGE Publicado \today{} (v1.0.0)}\par}
 %{\par\centering \textsc{\LARGE \today{} Draft 0.20.9}\par}
 \bigskip
 {\par\centering \textsc{\large Kurt M. Alonso} \\\underline{kurt@oktav.se}
 \par \textsc{\large koe} \\\underline{ukoe@protonmail.com}\par \par
-(for questions and comments, please CC both authors)\par}
+\par \vspace{.33cm} \footnotesize{Traducido al español desde la versión inglesa de \textit{Zero to Monero} por\\  \textsc{Félix Brezo}\\\underline{felix.brezo@i3visio.com}\par \par
+\par y \textsc{Yaiza Rubio} \\\underline{yaiza.rubio@i3visio.com}\par \par}}
 \vfill{}
 
 \begin{center}
   \begin{minipage}[t]{6.43in}
-This is a free resource: read, copy, print, or distribute as you wish.\\
+Este es un recurso libre: lea, copie, imprima o distribúyalo como quiera.\\
 
-Documentation is scarce. Donating allows us to maintain this project as Monero changes and grows (e.g. bulletproofs), and to assemble new reports (e.g. Kovri). Your support makes a big difference.\\
+La documentación es un bien escaso. Las donaciones permiten a los autores mantener este proyecto conforme Monero vaya cambiando y creciendo (e. g., \textit{bulletproofs}) así como producir nuevos trabajos sobre otros temas (e. g., Kovri). Su apoyo marca la diferencia.\\
 
-We hope you enjoy Zero to Monero!\vspace{.33cm}\\
+¡Esperamos que disfrute \textit{Monero desde cero}!\vspace{.33cm}\\
 \newlength\stextwidth
-\settowidth{\stextwidth}{\footnotesize{43sHzpng7oFAUMrRzg5RSg2XoYQbCSRYBRt4PV61ByqwY9ovfRGqMenj3ZkEQEaXsf7edQtTitH5xKG3t27kkKafKX4oFzY}}
-\makebox[\textwidth][c]{\scriptsize{Monero (XMR) donation address} \phantom{\footnotesize{g2XoQbCSRYBRt4PV61ByqwY9ovfRGqMenj3ZkEQEaXsf7edQttH5xKG3t27kkKafKX4oFzY}}}\vspace{-.45cm}
+\settowidth{\stextwidth}
+{\footnotesize{43sHzpng7oFAUMrRzg5RSg2XoYQbCSRYBRt4PV61ByqwY9ovfRGqMenj3ZkEQEaXsf7edQtTitH5xKG3t27kkKafKX4oFzY}}
+\makebox[\textwidth][c]{\scriptsize{Dirección de los autores originales} \phantom{\footnotesize{g2XoQbCSRYBRt4PV61ByqwY9ovfRGqMenj3ZkEQEaXsf7edQttH5xKG3t27kkKafKX4oFzY}}}\vspace{-.45cm}
 \makebox[\textwidth][c]{\rule{\stextwidth}{.4pt}}\vspace{-.15cm}
 \makebox[\textwidth][c]{\footnotesize{43sHzpng7oFAUMrRzg5RSg2XoYQbCSRYBRt4PV61ByqwY9ovfRGqMenj3ZkEQEaXsf7edQtTitH5xKG3t27kkKafKX4oFzY}}\vspace{-.35cm}
 \makebox[\textwidth][c]{\rule{\stextwidth}{.4pt}}
 \vspace{.117cm}\\
-\textbf{License}: Zero to Monero is released into the public domain.
+\textbf{Licencia}: Tanto \textit{Monero desde cero}, como su versión original en inglés \textit{Zero to Monero}, son obras de dominio público.
   
   \end{minipage}
 \end{center}
@@ -189,7 +191,7 @@ We hope you enjoy Zero to Monero!\vspace{.33cm}\\
 \pagestyle{empty}
 \begin{center}
 \vspace*{\fill}%\vspace*{3.5cm}
-{\LARGE \bfseries  Abstract}
+{\LARGE \bfseries  Resumen}
 \end{center}
 \vspace{0.5cm}
 \begin{center} 
@@ -202,10 +204,15 @@ We hope you enjoy Zero to Monero!\vspace{.33cm}\\
 \vspace*{\fill}
 \end{center}
 
+
 % ------ Table of contents and figures ---------
 \newpage
 \pagestyle{plain}
 \tableofcontents
+
+
+\include{content/prologue_spanish}
+
 
 % ___________________________________________________________________________________________________________
 %
@@ -217,14 +224,13 @@ We hope you enjoy Zero to Monero!\vspace{.33cm}\\
 \pagestyle{fancy}
 
 % -------- Chapters ----------------------------
-
 \include{content/introduction}
 \include{content/basicConcepts}
 \include{content/ring-signatures}
 \include{content/commitments}
 \include{content/Transactions}
 \include{content/blockchain}
-%\include{content/multisig}
+\include{content/multisig}
 
 % ___________________________________________________________________________________________________________
 %
@@ -233,7 +239,7 @@ We hope you enjoy Zero to Monero!\vspace{.33cm}\\
 
 % -------- Bibliography -----------------------
 
-\addcontentsline{toc}{chapter}{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliografía}
 {\footnotesize
 \bibliography{back/references.bib}
 \bibliographystyle{plain}

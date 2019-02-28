@@ -1,51 +1,42 @@
-\chapter{Introduction}
+\chapter{Introducción}
 \label{chap:introduction}
 
-In the digital realm it is often trivial to make endless copies of information, with equally endless alterations. For a currency to exist digitally and be widely adopted, its users must believe its supply is strictly limited. A money recipient must be able to verify they are not receiving counterfeit coins, or coins that have already been sent to someone else. To accomplish that without requiring the collaboration of any third party like a central authority, its supply and complete transaction history must be publicly verifiable.
+En el ámbito digital es trivial hacer copias de información sin límite con modificaciones igualmente interminables. Para que una moneda exista digitalmente y sea ampliamente adoptada, sus usuarios deben tener la certeza de que su oferta es estrictamente limitada. Un receptor de dinero debe poder verificar que no está recibiendo monedas falsificadas o monedas que ya han sido enviadas a otra persona. Por este motivo, para lograr esto sin requerir la colaboración de terceros como una autoridad central, su suministro y su historial completo de transacciones debe ser públicamente verificable.
 
-We can use crytographic tools to allow data registered in an easily accessible database - the blockchain - to be virtually immutable and unforgeable, with legitimacy that cannot be disputed by any party.
-\\ \newline
-Cryptocurrencies store transactions in the blockchain, which acts as a public ledger\footnote{In this context ledger just means a record of all currency creation and exchange events. Specifically, how much money was transferred in each event and to whom.} of all the currency operations. Most cryptocurrencies store transactions in clear text, to facilitate verification of transactions by the community of users.
-\\ \newline
-Clearly, an open blockchain defies any basic understanding of privacy, since it virtually {\em publicizes} the complete transaction histories of its users.
-\\ \newline
-To address the lack of privacy, users of cryptocurrencies such as Bitcoin can obfuscate transactions by using temporary intermediate addresses \cite{DBLP:journals/corr/NarayananM17}. However, with appropriate tools it is possible to analyze flows and to a large extent link true senders with receivers \cite{DBLP:journals/corr/ShenTuY15b, DK-police-tracing-btc, Andrew-Cox-Sandia}.
+Podemos utilizar herramientas criptográficas para permitir que los datos registrados en una base de datos de fácil acceso ---la cadena de bloques--- sean prácticamente inmutables e inamovibles, con una legitimidad que no puede ser cuestionada por ninguna de las partes. Las criptomonedas almacenan transacciones en la cadena, que actúa como un registro contable público\footnote{En este contexto, el concepto de \textit{libro contable} solamente significa un registro de todos los eventos de creación e intercambio. Concretamente, se almacena cuánto dinero es transferido en cada evento y a quién.} de todas las operaciones de la moneda. La mayor parte de las criptomonedas almacenan transacciones en texto claro para facilitar el proceso de verificación de transacciones por la comunidad de usuarios.
 
-In contrast, the cryptocurrency Monero (Moe-neh-row) attempts to tackle the issue of privacy by storing only single-use addresses for receipt of funds in the blockchain, and by authenticating the dispersal of funds in each transaction with ring signatures. With these methods there are no effective ways to link receivers or trace the origin of funds \cite{Monero-intro}.
+Claramente, una cadena de bloques abierta desafía cualquier entendimiento básico de la privacidad, ya que virtualmente publica el historial completo de las transacciones de sus usuarios.
 
-Additionally, transaction amounts in the Monero blockchain are concealed behind cryptographic constructions, rendering currency flows opaque.
+Para hacer frente a la falta de privacidad, los usuarios de criptomonedas como Bitcoin pueden ofuscar las transacciones utilizando direcciones intermedias temporales \cite{DBLP:journals/corr/NarayananM17}. Sin embargo, con las herramientas apropiadas, es posible analizar los flujos y, en cierta medida, conectar a los emisores y receptores reales de cada operación \cite{DBLP:journals/corr/ShenTuY15b, DK-police-tracing-btc, Andrew-Cox-Sandia}.
 
-The result is a cryptocurrency with a high level of privacy.
+Por contra, la criptomoneda Monero intenta abordar la cuestión de la privacidad mediante el almacenamiento de direcciones de un solo uso para la recepción de fondos en la cadena de bloques y acreditando la dispersión de los fondos en cada transacción usando firmas en anillo. Con estos métodos no hay una forma efectiva de vincular a los receptores o rastrear el origen de los fondos \cite{Monero-intro}.
+
+Además, las cantidades de las transacciones en la cadena de bloques de Monero están ocultas detrás de construcciones criptográficas, lo que hace que los flujos de monedas también sean opacos. El resultado es una criptomoneda con un alto nivel de privacidad.
 
 
-
-
-\section{Objectives}
+\section{Objetivos}
 \label{sec:goals}
 
-Monero is a cryptocurrency of recent creation \cite{bitmonero-launched, monero-history}, yet it displays a steady growth in popularity\footnote{\label{marketcap_note}As of June 14\nth, 2018, Monero occupies the 14\nth position as regards market capitalization; see\\ \url{https://coinmarketcap.com/}}. 
-Unfortunately, there is little comprehensive documentation describing the mechanisms it uses. Even worse, important parts of its theoretical framework have been published in non peer-reviewed papers which are incomplete and/or contain errors. For significant parts of the theoretical framework of Monero, only the source code is reliable as a source of information.
+Monero es una criptomoneda de reciente creación \cite{bitmonero-launched, monero-history}, aunque muestra un crecimiento constante en cuanto a popularidad \footnote{\label{marketcap_note}A 21 de febrero de 2019, Monero ocupa la 13ª posición en cuanto a capitalización de mercado, véase \\ \url{https://coinmarketcap.com/}}. 
+Desafortunadamente, hay poca documentación comprensible describiendo los mecanismos que utiliza. Y lo que es peor, partes importantes de su marco teórico han sido publicadas en documentos no revisados por pares que están incompletos o que contienen errores. De hecho, para partes significativas del ecosistema de Monero, la única fuente de información fiable es el propio código fuente de la aplicación.
 
-Moreover, for those without a background in mathematics, learning the basics of elliptic curve cryptography, which Monero uses extensively, can be a haphazard and frustrating endeavor.\footnote{A previous attempt to explain how Monero works did not elucidate elliptic curve cryptography, was incomplete, and is now almost four years outdated: \cite{MRL-0003}.}
+Además, para aquellos que no tienen experiencia en matemáticas, aprender los fundamentos de la criptografía de curva elíptica, que Monero utiliza ampliamente, puede ser una tarea desestructurada e incluso frustrante. \footnote{Anteriormente, ya se ha intentado explicar el funcionamiento de Monero \cite{MRL-0003}. Sin embargo, este intento no terminó por describir la criptografía de curva elíptica que lo hacía posible quedando incompleto y, tras cinco años, desactualizado.}
 
-We intend to palliate this situation by introducing the fundamental concepts necessary to understand elliptic curve cryptography, reviewing algorithms and cryptographic schemes, and collecting in-depth information about Monero’s inner workings.
+Pretendemos paliar esta situación introduciendo los conceptos fundamentales necesarios para entender la criptografía de curva elíptica, revisando los algoritmos y esquemas criptográficos y recogiendo información en profundidad sobre el funcionamiento interno de Monero.
 
-To provide the best experience for our readers, we have taken care to build a constructive, step-by-step description of the Monero cryptocurrency.
-\\ 
-\\ 
+Para proporcionar la mejor experiencia a nuestros lectores, nos hemos preocupado de construir una descripción constructiva, paso a paso, de la criptomoneda de Monero.
 
-In the first edition of this report we have centered our attention on version 7 of the Monero protocol, corresponding to version 0.12.x.x of the Monero software suite. All transaction related mechanisms described here belong to those versions. Deprecated transaction schemes have not been explored to any extent, even if they may be partially supported for backward compatibility.
+En la primera edición de este informe hemos centrado nuestra atención en la versión 7 del protocolo Monero, correspondiente a la versión 0.12.x.x de Monero. Todos los mecanismos relacionados con las transacciones aquí descritos pertenecen de hecho a esas versiones. Los esquemas de transacciones que han quedado obsoletos no han sido explorados hasta el momento, incluso si estos son soportados parcialmente para mantener la compatibilidad con versiones anteriores del \textit{software}.
 
 
-\section{Readership}
+\section{Destinatarios del documento}
 
-We anticipate many readers will encounter this report with little to no understanding of discrete mathematics, algebraic structures, cryptography, and blockchains. We have tried to be thorough enough that laymen from all perspectives may learn Monero without needing external research.
+Los autores somos conscientes de que muchos lectores se enfrentarán a este documento con poca o ninguna comprensión de matemática discreta, estructuras algebraicas, criptografía y cadenas de bloques. Hemos tratado de ser lo suficientemente minuciosos como para que perfiles de todas las perspectivas puedan aprender Monero sin necesidad de investigación externa.
 
-We have purposefully omitted, or delegated to footnotes, some mathematical technicalities, when they would be in the way of clarity. We have also omitted concrete implementation details where we thought they were not essential. Our objective has been to present the subject half-way between mathematical cryptography and computer programming, aiming at completeness and conceptual clarity.
+Hemos, o bien delegado a notas a pie de página, o bien omitido intencionadamente algunos tecnicismos matemáticos, siempre que su explicación chocase con la claridad que esperamos para este documento. También hemos omitido detalles concretos de aplicación que no creíamos que eran esenciales. Nuestro objetivo ha sido presentar el tema a medio camino entre la criptografía matemática y la programación informática, con el objetivo de lograr una claridad conceptual completa.
 
 
-
-\section{Origins of the Monero cryptocurrency}
+\section{Orígenes de la criptomoneda Monero}
 
 The cryptocurrency Monero, originally known as BitMonero, was created in April, 2014 as a derivative of the proof-of-concept currency CryptoNote \cite{bitmonero-launched}. Monero means `money' in the language Esperanto, and its plural form is Moneroj (Moe-neh-rowje, similar to Moneros but using the -ge from orange).
 
@@ -54,10 +45,9 @@ CryptoNote is a cryptocurrency devised by various individuals. A landmark whitep
 Since its inception, Monero has further strengthened its privacy aspects by implementing amount hiding, as described by Greg Maxwell (among others) in \cite{Signatures2015BorromeanRS} and integrated into ring signatures based on Shen Noether's recommendations in \cite{MRL-0005}.
   
 
-\section{Outline}
+\section{Estructura de este documento}
 
 As mentioned, our aim is to deliver a self-contained and step-by-step description of the Monero cryptocurrency. This report has been structured to fulfill this objective, leading the reader through all parts of the currency’s inner workings.
-\\
 
 In our quest for comprehensiveness, we have chosen to present all the basic elements of cryptography needed to understand the complexities of Monero, and their mathematical antecedents. In Chapter \ref{chap:basicConcepts} we develop essential aspects of elliptic curve cryptography.
 
@@ -73,12 +63,12 @@ While not essential to the operation of Monero, there is a lot of utility in mul
 
 Appendices \ref{appendix:RCTTypeFull} and \ref{appendix:RCTTypeSimple} explain the structure of sample transactions from the blockchain. Appendix \ref{appendix:block-content} explains the structure of blocks (including block headers and miner transactions) in Monero's blockchain, while Appendix \ref{appendix:genesis-block} brings our report to a close by explaining the structure of Monero's genesis block. These provide a connection between the theoretical elements described in earlier sections with their real-life implementation.
 
-We\marginnote{Isn't this useful?} use margin notes to indicate where Monero implementation details can be found in the source code.\footnote{These margin notes are accurate for version 0.12.x.x of the Monero software suite, but may gradually become inaccurate as the code base is constantly changing. However, the code is stored in a git repository (\url{https://github.com/monero-project/monero}), so a complete history of changes is available.} There is usually a file path, such as src/ringct/rctSigs.cpp, and a function, such as \(\textrm{genBorromean()}\). Note: `-' indicates split text, such as crypto- note $\rightarrow$ cryptonote.
+We\marginnote{¿Verdad que es útil?} use margin notes to indicate where Monero implementation details can be found in the source code.\footnote{These margin notes are accurate for version 0.12.x.x of the Monero software suite, but may gradually become inaccurate as the code base is constantly changing. However, the code is stored in a git repository (\url{https://github.com/monero-project/monero}), so a complete history of changes is available.} There is usually a file path, such as src/ringct/rctSigs.cpp, and a function, such as \(\textrm{genBorromean()}\). Note: `-' indicates split text, such as crypto- note $\rightarrow$ cryptonote.
 
-\section{Disclaimer}
+\section{Aviso sobre conceptos criptográficos}
 
 All signature schemes, applications of elliptic curves, and Monero implementation details should be considered descriptive only. Readers considering serious practical applications (as opposed to a hobbyist's explorations) should consult original sources and technical specifications (which we have cited where possible). Signature schemes need well-vetted security proofs, and Monero implementation details can be found in Monero's source code. In particular, as a common saying goes, `don't roll your own crypto'. Code implementing cryptographic primitives should be well reviewed by experts, and have a long history of solid performance.
 
-\section{History of Zero to Monero}
+\section{Historia de \textit{Monero desde cero}}
 
-Zero to Monero is an expansion of Kurt Alonso's master's thesis `Monero - Privacy in the Blockchain' \cite{kurt-original}.
+La versión inglesa de \textit{Monero desde cero}, \textit{Zero to Monero} es una expansión de la tesis de maestría de Kurt Alonso \textit{Monero - Privacy in the Blockchain} \cite{kurt-original}.

@@ -1,0 +1,108 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Destinatarios del documento}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Or\IeC {\'\i }genes de la criptomoneda Monero}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Estructura de este documento}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Aviso sobre conceptos criptogr\IeC {\'a}ficos}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Historia de \textit {Monero desde cero}}{4}{section.1.6}
+\contentsline {chapter}{\numberline {2}Conceptos b\IeC {\'a}sicos}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Algunas palabras sobre la notaci\IeC {\'o}n}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aritm\IeC {\'e}tica modular}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Adici\IeC {\'o}n y multiplicaci\IeC {\'o}n modular}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Exponentiaci\IeC {\'o}n modular}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Multiplicativo modular inverso}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Ecuaciones modulares}{9}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a de curva el\IeC {\'\i }ptica}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}\IeC {\textquestiondown }Qu\IeC {\'e} son las curvas el\IeC {\'\i }pticas?}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Criptograf\IeC {\'\i }a de clave p\IeC {\'u}blica con curvas el\IeC {\'\i }pticas}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Intercambio de claves de Diffie-Hellman con curvas el\IeC {\'\i }pticas}{13}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Firmas Schnorr y transformada de Fiat-Shamir}{13}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Firma de mensajes}{15}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}La curva Ed25519}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Representaci\IeC {\'o}n binaria}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Punto de compresi\IeC {\'o}n}{17}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Algoritmo de firma EdDSA}{18}{subsection.2.4.3}
+\contentsline {subsubsection}{Firma}{19}{section*.7}
+\contentsline {subsubsection}{Verificaci\IeC {\'o}n}{19}{section*.8}
+\contentsline {subsubsection}{Por qu\IeC {\'e} funciona}{19}{section*.9}
+\contentsline {subsubsection}{Representaci\IeC {\'o}n binaria}{19}{section*.10}
+\contentsline {chapter}{\numberline {3}Ring Signatures}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Linkable Spontaneous Anonymous Group (LSAG) signatures}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Back's Linkable Spontaneous Anonymous Group (bLSAG) signatures}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Multilayer Linkable Spontaneous Anonymous Group (MLSAG) signatures}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Borromean ring signatures}{27}{section.3.4}
+\contentsline {chapter}{\numberline {4}Pedersen Commitments}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Pedersen commitments}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Amount commitments}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Range proofs}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Range proofs in a blockchain}{32}{section.4.4}
+\contentsline {chapter}{\numberline {5}Monero Transactions}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}User keys}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}One-time addresses}{34}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Multi-output transactions}{36}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Subaddresses}{36}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sending to a subaddress}{37}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Integrated addresses}{38}{section.5.4}
+\contentsline {section}{\numberline {5.5}Transaction types}{40}{section.5.5}
+\contentsline {section}{\numberline {5.6}Ring Confidential Transactions of type {\tt RCTTypeFull}}{41}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Amount commitments}{41}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Commitments to zero}{42}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Signature}{42}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Transaction fees}{44}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Avoiding double-spending}{44}{subsection.5.6.5}
+\contentsline {subsection}{\numberline {5.6.6}Space and verification requirements}{45}{subsection.5.6.6}
+\contentsline {section}{\numberline {5.7}Ring Confidential Transactions of type {\tt RCTTypeSimple}}{46}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Amount commitments}{46}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Signature}{48}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Space and verification requirements}{48}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Concept summary: Monero transactions}{50}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Storage and verification requirements}{51}{subsection.5.8.1}
+\contentsline {chapter}{\numberline {6}The Monero Blockchain}{52}{chapter.6}
+\contentsline {section}{\numberline {6.1}Digital currency}{52}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Shared version of events}{53}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Simple blockchain}{54}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Difficulty}{54}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Mining a block}{55}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Mining speed}{55}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Consensus: largest cumulative difficulty}{56}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Mining in Monero}{57}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Money supply}{58}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Block reward}{58}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Block size penalty}{60}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Dynamic minimum fee}{61}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Emission tail}{61}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Miner transaction}{62}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Blockchain structure}{62}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Transaction ID}{63}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Merkle tree}{63}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Blocks}{65}{subsection.6.4.3}
+\contentsline {chapter}{\numberline {7}Multisignatures in Monero}{66}{chapter.7}
+\contentsline {section}{\numberline {7.1}Communicating with co-signers}{67}{section.7.1}
+\contentsline {section}{\numberline {7.2}Key aggregation for addresses}{67}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Naive approach}{67}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Drawbacks to naive approach}{68}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Robust key aggregation}{69}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Thresholded Schnorr-like signatures}{70}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Simple threshold Schnorr-like signatures}{70}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Back's Linkable Spontaneous Threshold Anonymous Group (bLSTAG) signatures}{72}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Multilayer Linkable Spontaneous Threshold Anonymous Group (MLSTAG) signatures}{73}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}MLSTAG Ring Confidential signatures for Monero}{74}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}{\tt RCTTypeFull} N-of-N multisig}{74}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}{\tt RCTTypeSimple} N-of-N multisig}{77}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Simplified communication}{77}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Recalculating key images}{78}{section.7.5}
+\contentsline {section}{\numberline {7.6}Smaller thresholds}{79}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}1-of-N key aggregation}{80}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}(N-1)-of-N key aggregation}{80}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}M-of-N key aggregation}{82}{subsection.7.6.3}
+\contentsline {section}{\numberline {7.7}Key families}{83}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Family trees}{84}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Nesting multisig keys}{84}{subsection.7.7.2}
+\contentsline {subsection}{\numberline {7.7.3}Implications for Monero}{86}{subsection.7.7.3}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{87}{subsection.7.7.3}
+\contentsline {chapter}{Appendices}{90}{section*.47}
+\contentsline {chapter}{\numberline {A}{\tt RCTTypeFull} Transaction Structure}{92}{Appendix.1.A}
+\contentsline {chapter}{\numberline {B}{\tt RCTTypeSimple} Transaction Structure}{97}{Appendix.1.B}
+\contentsline {chapter}{\numberline {C}Block Content}{101}{Appendix.1.C}
+\contentsline {chapter}{\numberline {D}Genesis Block}{104}{Appendix.1.D}

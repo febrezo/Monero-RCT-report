@@ -1,0 +1,103 @@
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Objetivos}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Destinatarios del documento}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Or\355genes de la criptomoneda Monero}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Estructura de este documento}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Aviso sobre conceptos criptogr\341ficos}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{Historia de Monero desde cero}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Conceptos b\341sicos}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Algunas palabras sobre la notaci\363n}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Aritm\351tica modular}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Adici\363n y multiplicaci\363n modular}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Exponentiaci\363n modular}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Multiplicativo modular inverso}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.4}{Ecuaciones modulares}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Criptograf\355a de curva el\355ptica}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{\277Qu\351 son las curvas el\355pticas?}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Criptograf\355a de clave p\372blica con curvas el\355pticas}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{Intercambio de claves de Diffie-Hellman con curvas el\355pticas}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Firmas Schnorr y transformada de Fiat-Shamir}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.5}{Firma de mensajes}{section.2.3}% 20
+\BOOKMARK [1][-]{section.2.4}{La curva Ed25519}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.4.1}{Representaci\363n binaria}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.2}{Punto de compresi\363n}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.3}{Algoritmo de firma EdDSA}{section.2.4}% 24
+\BOOKMARK [0][-]{chapter.3}{Ring Signatures}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Linkable Spontaneous Anonymous Group \(LSAG\) signatures}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{Back's Linkable Spontaneous Anonymous Group \(bLSAG\) signatures}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.3}{Multilayer Linkable Spontaneous Anonymous Group \(MLSAG\) signatures}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Borromean ring signatures}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Pedersen Commitments}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Pedersen commitments}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Amount commitments}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{Range proofs}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{Range proofs in a blockchain}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Monero Transactions}{}% 35
+\BOOKMARK [1][-]{section.5.1}{User keys}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{One-time addresses}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{Multi-output transactions}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Subaddresses}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.3.1}{Sending to a subaddress}{section.5.3}% 40
+\BOOKMARK [1][-]{section.5.4}{Integrated addresses}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.5}{Transaction types}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.6}{Ring Confidential Transactions of type RCTTypeFull}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.6.1}{Amount commitments}{section.5.6}% 44
+\BOOKMARK [2][-]{subsection.5.6.2}{Commitments to zero}{section.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.6.3}{Signature}{section.5.6}% 46
+\BOOKMARK [2][-]{subsection.5.6.4}{Transaction fees}{section.5.6}% 47
+\BOOKMARK [2][-]{subsection.5.6.5}{Avoiding double-spending}{section.5.6}% 48
+\BOOKMARK [2][-]{subsection.5.6.6}{Space and verification requirements}{section.5.6}% 49
+\BOOKMARK [1][-]{section.5.7}{Ring Confidential Transactions of type RCTTypeSimple}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.7.1}{Amount commitments}{section.5.7}% 51
+\BOOKMARK [2][-]{subsection.5.7.2}{Signature}{section.5.7}% 52
+\BOOKMARK [2][-]{subsection.5.7.3}{Space and verification requirements}{section.5.7}% 53
+\BOOKMARK [1][-]{section.5.8}{Concept summary: Monero transactions}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.8.1}{Storage and verification requirements}{section.5.8}% 55
+\BOOKMARK [0][-]{chapter.6}{The Monero Blockchain}{}% 56
+\BOOKMARK [1][-]{section.6.1}{Digital currency}{chapter.6}% 57
+\BOOKMARK [2][-]{subsection.6.1.1}{Shared version of events}{section.6.1}% 58
+\BOOKMARK [2][-]{subsection.6.1.2}{Simple blockchain}{section.6.1}% 59
+\BOOKMARK [1][-]{section.6.2}{Difficulty}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.2.1}{Mining a block}{section.6.2}% 61
+\BOOKMARK [2][-]{subsection.6.2.2}{Mining speed}{section.6.2}% 62
+\BOOKMARK [2][-]{subsection.6.2.3}{Consensus: largest cumulative difficulty}{section.6.2}% 63
+\BOOKMARK [2][-]{subsection.6.2.4}{Mining in Monero}{section.6.2}% 64
+\BOOKMARK [1][-]{section.6.3}{Money supply}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.3.1}{Block reward}{section.6.3}% 66
+\BOOKMARK [2][-]{subsection.6.3.2}{Block size penalty}{section.6.3}% 67
+\BOOKMARK [2][-]{subsection.6.3.3}{Dynamic minimum fee}{section.6.3}% 68
+\BOOKMARK [2][-]{subsection.6.3.4}{Emission tail}{section.6.3}% 69
+\BOOKMARK [2][-]{subsection.6.3.5}{Miner transaction}{section.6.3}% 70
+\BOOKMARK [1][-]{section.6.4}{Blockchain structure}{chapter.6}% 71
+\BOOKMARK [2][-]{subsection.6.4.1}{Transaction ID}{section.6.4}% 72
+\BOOKMARK [2][-]{subsection.6.4.2}{Merkle tree}{section.6.4}% 73
+\BOOKMARK [2][-]{subsection.6.4.3}{Blocks}{section.6.4}% 74
+\BOOKMARK [0][-]{chapter.7}{Multisignatures in Monero}{}% 75
+\BOOKMARK [1][-]{section.7.1}{Communicating with co-signers}{chapter.7}% 76
+\BOOKMARK [1][-]{section.7.2}{Key aggregation for addresses}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.2.1}{Naive approach}{section.7.2}% 78
+\BOOKMARK [2][-]{subsection.7.2.2}{Drawbacks to naive approach}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.3}{Robust key aggregation}{section.7.2}% 80
+\BOOKMARK [1][-]{section.7.3}{Thresholded Schnorr-like signatures}{chapter.7}% 81
+\BOOKMARK [2][-]{subsection.7.3.1}{Simple threshold Schnorr-like signatures}{section.7.3}% 82
+\BOOKMARK [2][-]{subsection.7.3.2}{Back's Linkable Spontaneous Threshold Anonymous Group \(bLSTAG\) signatures}{section.7.3}% 83
+\BOOKMARK [2][-]{subsection.7.3.3}{Multilayer Linkable Spontaneous Threshold Anonymous Group \(MLSTAG\) signatures}{section.7.3}% 84
+\BOOKMARK [1][-]{section.7.4}{MLSTAG Ring Confidential signatures for Monero}{chapter.7}% 85
+\BOOKMARK [2][-]{subsection.7.4.1}{RCTTypeFull N-of-N multisig}{section.7.4}% 86
+\BOOKMARK [2][-]{subsection.7.4.2}{RCTTypeSimple N-of-N multisig}{section.7.4}% 87
+\BOOKMARK [2][-]{subsection.7.4.3}{Simplified communication}{section.7.4}% 88
+\BOOKMARK [1][-]{section.7.5}{Recalculating key images}{chapter.7}% 89
+\BOOKMARK [1][-]{section.7.6}{Smaller thresholds}{chapter.7}% 90
+\BOOKMARK [2][-]{subsection.7.6.1}{1-of-N key aggregation}{section.7.6}% 91
+\BOOKMARK [2][-]{subsection.7.6.2}{\(N-1\)-of-N key aggregation}{section.7.6}% 92
+\BOOKMARK [2][-]{subsection.7.6.3}{M-of-N key aggregation}{section.7.6}% 93
+\BOOKMARK [1][-]{section.7.7}{Key families}{chapter.7}% 94
+\BOOKMARK [2][-]{subsection.7.7.1}{Family trees}{section.7.7}% 95
+\BOOKMARK [2][-]{subsection.7.7.2}{Nesting multisig keys}{section.7.7}% 96
+\BOOKMARK [2][-]{subsection.7.7.3}{Implications for Monero}{section.7.7}% 97
+\BOOKMARK [0][-]{subsection.7.7.3}{Bibliograf\355a}{}% 98
+\BOOKMARK [0][-]{section*.47}{Appendices}{}% 99
+\BOOKMARK [0][-]{Appendix.1.A}{RCTTypeFull Transaction Structure}{}% 100
+\BOOKMARK [0][-]{Appendix.1.B}{RCTTypeSimple Transaction Structure}{}% 101
+\BOOKMARK [0][-]{Appendix.1.C}{Block Content}{}% 102
+\BOOKMARK [0][-]{Appendix.1.D}{Genesis Block}{}% 103
